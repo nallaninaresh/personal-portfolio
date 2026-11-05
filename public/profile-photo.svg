@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0B1020" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2A76F" />
+      <stop offset="100%" stop-color="#C68642" />
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with subtle circular glow -->
+  <rect width="400" height="400" rx="200" fill="url(#bgGrad)" />
+  <circle cx="200" cy="200" r="190" fill="none" stroke="url(#accentGlow)" stroke-width="4" stroke-opacity="0.6" />
+
+  <!-- Shoulders & Blazer -->
+  <path d="M 90 400 C 100 310, 140 280, 200 280 C 260 280, 300 310, 310 400 Z" fill="url(#suitGrad)" />
+  <!-- Inner Collar / Shirt -->
+  <polygon points="175,280 225,280 200,340" fill="#F8FAFC" />
+  <polygon points="195,300 205,300 203,380 197,380" fill="#3B82F6" />
+
+  <!-- Neck -->
+  <rect x="180" y="220" width="40" height="70" rx="10" fill="url(#skinGrad)" />
+
+  <!-- Head Base -->
+  <ellipse cx="200" cy="180" rx="55" ry="68" fill="url(#skinGrad)" />
+
+  <!-- Ears -->
+  <ellipse cx="143" cy="182" rx="9" ry="16" fill="#C68642" />
+  <ellipse cx="257" cy="182" rx="9" ry="16" fill="#C68642" />
+
+  <!-- Hair -->
+  <path d="M 142 165 C 140 120, 160 100, 200 100 C 240 100, 260 120, 258 165 C 250 140, 230 130, 200 130 C 170 130, 150 140, 142 165 Z" fill="#1C1917" />
+  <path d="M 145 150 C 150 125, 175 110, 205 110 C 235 110, 255 125, 255 145 C 240 135, 220 132, 195 132 C 170 132, 155 140, 145 150 Z" fill="#292524" />
+
+  <!-- Eyes & Eyebrows -->
+  <path d="M 165 160 Q 178 156 188 160" stroke="#1C1917" stroke-width="3" fill="none" stroke-linecap="round" />
+  <path d="M 212 160 Q 222 156 235 160" stroke="#1C1917" stroke-width="3" fill="none" stroke-linecap="round" />
+  <ellipse cx="177" cy="172" rx="5" ry="5.5" fill="#1C1917" />
+  <circle cx="178.5" cy="170.5" r="1.5" fill="#FFFFFF" />
+  <ellipse cx="223" cy="172" rx="5" ry="5.5" fill="#1C1917" />
+  <circle cx="224.5" cy="170.5" r="1.5" fill="#FFFFFF" />
+
+  <!-- Modern Spectacles / Glasses -->
+  <rect x="160" y="162" width="34" height="22" rx="6" fill="rgba(59, 130, 246, 0.1)" stroke="#38BDF8" stroke-width="2" />
+  <rect x="206" y="162" width="34" height="22" rx="6" fill="rgba(59, 130, 246, 0.1)" stroke="#38BDF8" stroke-width="2" />
+  <line x1="194" y1="172" x2="206" y2="172" stroke="#38BDF8" stroke-width="2" />
+  <line x1="145" y1="170" x2="160" y2="170" stroke="#38BDF8" stroke-width="2" />
+  <line x1="240" y1="170" x2="255" y2="170" stroke="#38BDF8" stroke-width="2" />
+
+  <!-- Nose -->
+  <path d="M 200 174 L 197 192 L 204 192" stroke="#A16207" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <!-- Smile -->
+  <path d="M 185 208 Q 200 220 215 208" stroke="#7C2D12" stroke-width="2.5" fill="none" stroke-linecap="round" />
+
+  <!-- Floating Tech Mini Badge bottom right -->
+  <g transform="translate(270, 270)">
+    <circle cx="24" cy="24" r="26" fill="#0B1020" stroke="#3B82F6" stroke-width="2.5" />
+    <text x="24" y="29" font-family="Inter, sans-serif" font-size="16" font-weight="bold" fill="#38BDF8" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+</svg>
+

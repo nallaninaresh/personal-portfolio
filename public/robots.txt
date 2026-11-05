@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nareshnallani.dev/sitemap.xml
+
